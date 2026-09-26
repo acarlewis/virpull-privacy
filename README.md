@@ -52,7 +52,7 @@ git init
 git add index.html style.css README.md
 git commit -m "Add VirPull Companion privacy policy"
 git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/virpull-privacy.git
+git remote add origin https://github.com/acarlewis/virpull-privacy.git
 git push -u origin main
 ```
 
@@ -77,11 +77,8 @@ GitHub will now publish the site. The first deployment usually takes one to two 
 3. The URL follows this pattern:
 
    ```
-   https://YOUR-USERNAME.github.io/virpull-privacy/
+   https://acarlewis.github.io/virpull-privacy/
    ```
-
-   For example, if your username is `octocat` and the repository is named `virpull-privacy`, the URL is
-   `https://octocat.github.io/virpull-privacy/`.
 
 Use this URL as the **privacy policy URL** in your browser extension store listing, such as the Chrome Web Store developer dashboard.
 
